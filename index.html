@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;1,100;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="logo">
+        <i class="fa-brands fa-buysellads"></i>
+      </div>
+
+      <div class="search">
+        <input type="text" placeholder="Tìm kiếm..." />
+      </div>
+
+      <div class="button">
+        <div class="best_seller-button">
+          <i class="fa-solid fa-user"></i>
+          Account
+        </div>
+        <div class="cart-button">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- caurosel -->
+      <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+              <img
+                src="https://www.hdwallpaper.nu/wp-content/uploads/2015/06/1653079.jpg"
+                alt=""
+              />
+            </div>
+
+            <a href="#carousel__slide4" class="carousel__prev"
+              >Go to last slide</a
+            >
+            <a href="#carousel__slide2" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+              <img
+                src="https://www.hdwallpaper.nu/wp-content/uploads/2015/06/2004180-995x498.jpg"
+                alt=""
+              />
+            </div>
+            <a href="#carousel__slide1" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide3" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+              <img
+                src="https://i0.wp.com/allpicts.in/wp-content/uploads/2016/09/Close-Up-Lotus-Flower-on-Pond.jpg?resize=700%2C400"
+                alt=""
+              />
+            </div>
+            <a href="#carousel__slide2" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide4" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+              <img
+                src="https://wallpapercave.com/dwp1x/2bGteX0.jpg"
+                alt=""
+              />
+            </div>
+            <a href="#carousel__slide3" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide1" class="carousel__next"
+              >Go to first slide</a
+            >
+          </li>
+        </ol>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1" class="carousel__navigation-button"
+                >Go to slide 1</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2" class="carousel__navigation-button"
+                >Go to slide 2</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide3" class="carousel__navigation-button"
+                >Go to slide 3</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide4" class="carousel__navigation-button"
+                >Go to slide 4</a
+              >
+            </li>
+          </ol>
+        </aside>
+      </section>
+      <h1 class="container_title">OUR PRODUCTS</h1>
+
+      <!-- flower - products -->
+      <h2 class="products_title">Flower ></h2>
+      <div class="row">
+        <a class="item" href="./detail.html">
+          <div class="item_img">
+            <img
+              src="https://toanthaydinh.com/wp-content/uploads/2020/04/bo-hoa-hong-do-75b7e6253aa816_07da601775e64b7cd731823aeb63dc04-599x800-2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="item_content">
+            <h3>Rose</h3>
+            <p>Price : 100 000 VND</p>
+          </div>
+        </a>
+
+        <a class="item" href="./detail.html">
+          <div class="item_img">
+            <img
+              src="https://cdn.shopeesales.com/2020/02/bo-hoa-cam-tay-co-dau-min.jpg"
+              alt=""
+            />
+          </div>
+          <div class="item_content">
+            <h3>Sunflower</h3>
+            <p>Price : 200 000 VND</p>
+          </div>
+        </a>
+
+        <a class="item" href="./detail.html">
+          <div class="item_img">
+            <img
+              src="https://huongflower.com/wp-content/uploads/2020/03/Fs1.1-large.jpg"
+              alt=""
+            />
+          </div>
+          <div class="item_content">
+            <h3>Baby flower</h3>
+            <p>Price : 10 000 VND</p>
+          </div>
+        </a>
+
+        <a class="item" href="./detail.html">
+          <div class="item_img">
+            <img
+              src="https://image-us.eva.vn/upload/3-2022/images/2022-08-26/image14-1661500032-713-width1472height1738.jpg"
+              alt=""
+            />
+          </div>
+          <div class="item_content">
+            <h3>Chrysanthemum</h3>
+            <p>Price : 100 000 VND</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- teddy bear - product -->
+      <h2 class="products_title">Teddy bear ></h2>
+      <div class="row">
+        <a class="item" href="./detail.html">
+          <div class="item_img">
+            <img
+              src="https://fikong.com/wp-content/uploads/2017/07/hinh-anh-gau-bong-buon-12.jpg"
+              alt=""
+            />
+          </div>
+          <div class="item_content">
+            <h3>Brown Bear</h3>
+            <p>Price : 500 000 VND</p>
+          </div>
+        </a>
+
+        <a class="item" href="./detail.html">
+          <div class="item_img">
+            <img
+              src="https://kenh14cdn.com/2017/photo-1-1510546537778.jpg"
+              alt=""
+            />
+          </div>
+          <div class="item_content">
+            <h3>White Bear</h3>
+            <p>Price : 400 000 VND</p>
+          </div>
+        </a>
+
+        <a class="item" href="./detail.html">
+          <div class="item_img">
+            <img
+              src="https://gaubongvietkhue.com/uploads/Products/thu-bong-de-thuong/tho-thoi-bong-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="item_content">
+            <h3>Rabbit</h3>
+            <p>Price : 200 000 VND</p>
+          </div>
+        </a>
+
+        <a class="item" href="./detail.html">
+          <div class="item_img">
+            <img
+              src="https://cf.shopee.vn/file/a4c2f7d32bed85b4fdb59cfab31fcb1e"
+              alt=""
+            />
+          </div>
+          <div class="item_content">
+            <h3>Lotso</h3>
+            <p>Price : 400 000 VND</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <!-- LEFT -->
+      <div class="about">
+        <h3>My lovely store</h3>
+        <a href="#">Owner Info</a>
+        <a href="#">Our blog</a>
+        <a href="#">Shipment policy</a>
+        <a href="#">Return policy</a>
+      </div>
+      <div class="custumer">
+        <h3>Customer support</h3>
+        <p>Hotline <a href="#">1900-2500</a></p>
+        <a href="#">Frequent asked</a>
+        <a href="#">Oder Instruction</a>
+      </div>
+      <!-- RIGHT -->
+      <div class="connect">
+        <h1>Contact me</h1>
+
+        <div class="social">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <div class="payment">
+        <h1>Payment</h1>
+        <div class="option">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-stripe"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <!-- <script type="module" src="script.js"></script> -->
+  </body>
+</html>
