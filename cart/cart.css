@@ -1,0 +1,33 @@
+.container{
+
+}
+
+.row{
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+    margin-bottom: 12px;
+}
+
+.item-info{
+    width: 120px;
+    
+}
+
+.item-info img{
+    width: 100%;
+}
+
+.item-price{
+
+}
+
+.item-quantity{
+
+}
+
+.item-action{
+
+}
